@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Sklep internetowy</title>
+</head>
+<body style="">
+    <header th:replace="myFragments::myHeader"></header>
+
+    <main style="margin-top: 20px">
+        <a th:href="@{|/lista|}" th:text="Wyświetl wszystkie produkty"></a>
+    </main>
+</body>
+</html>
